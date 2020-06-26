@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hookstore>
+    <hook type="lang">
+        <value>en</value>
+        <value>fr</value>
+    </hook>
+    <hook type="cdentry">
+        <identifier>cd_defaultapp</identifier>
+        <translation>37000</translation>
+        <category>other</category>
+        <available>defaultapp</available>
+    </hook>
+</hookstore>
