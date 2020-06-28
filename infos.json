@@ -12,7 +12,7 @@
     "version": "1.0",
     "licence": "GPLv2",
     "description": {
-        "fr": "Remonte le status des applications par défaut Windows",
-        "en": "Retrieve Windows default apps state"
+        "fr": "Remonte les applications par défaut Windows",
+        "en": "Retrieve the default application used by Windows"
     }
 }
