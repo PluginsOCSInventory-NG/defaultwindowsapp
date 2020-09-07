@@ -1,7 +1,7 @@
 <?php
 
 
-function extension_install_defaultapp()
+function extension_install_defaultwindowsapp()
 {
     
      $commonObject = new ExtensionCommon;
@@ -19,7 +19,7 @@ function extension_install_defaultapp()
 }
 
 
-function extension_delete_defaultapp()
+function extension_delete_defaultwindowsapp()
 {
     $commonObject = new ExtensionCommon;
     
@@ -27,7 +27,7 @@ function extension_delete_defaultapp()
 }
 
 
-function extension_upgrade_defaultapp()
+function extension_upgrade_defaultwindowsapp()
 {
 
 }
