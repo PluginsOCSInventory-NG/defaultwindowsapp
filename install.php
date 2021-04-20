@@ -6,9 +6,9 @@ function extension_install_defaultwindowsapp()
     
      $commonObject = new ExtensionCommon;
 
-     $commonObject -> sqlQuery("DROP TABLE `defaultapp`");
+     $commonObject -> sqlQuery("DROP TABLE IF `defaultwindowsapp`");
 
-     $commonObject -> sqlQuery("CREATE TABLE `defaultapp`(
+     $commonObject -> sqlQuery("CREATE TABLE `defaultwindowsapp`(
                                 `ID` INT(11) NOT NULL AUTO_INCREMENT,
                                 `HARDWARE_ID` INT (11) NOT NULL,
                                 `NAME` VARCHAR(255) DEFAULT NULL,
@@ -23,7 +23,7 @@ function extension_delete_defaultwindowsapp()
 {
     $commonObject = new ExtensionCommon;
     
-    $commonObject -> sqlQuery("DROP TABLE `defaultapp`");
+    $commonObject -> sqlQuery("DROP TABLE `defaultwindowsapp`");
 }
 
 

@@ -8,13 +8,13 @@
 ## Please refer to the General Public Licence http://www.gnu.org/ or Licence.txt
 ################################################################################
  
-package Apache::Ocsinventory::Plugins::Defaultapp::Map;
+package Apache::Ocsinventory::Plugins::Defaultwindowsapp::Map;
  
 use strict;
  
 use Apache::Ocsinventory::Map;
 #Plugin UPTIME
-$DATA_MAP{defaultapp} = {
+$DATA_MAP{defaultwindowsapp} = {
 	mask => 0,
 		multi => 1,
 		auto => 1,
