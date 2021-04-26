@@ -21,7 +21,7 @@
 	print_item_header("Windows Default Apps");
 	if (!isset($protectedPost['SHOW']))
 		$protectedPost['SHOW'] = 'NOSHOW';
-	$form_name="defaultapp";
+	$form_name="defaultwindowsapp";
 	$table_name=$form_name;
 	$tab_options=$protectedPost;
 	$tab_options['form_name']=$form_name;
@@ -34,7 +34,7 @@
 	$list_col_cant_del=$My_tab;
 	$default_fields=$My_tab;
 	$sql=prepare_sql_tab($My_tab);
-	$sql['SQL']  .= "FROM defaultapp WHERE (hardware_id = $systemid)";
+	$sql['SQL']  .= "FROM defaultwindowsapp WHERE (hardware_id = $systemid)";
 	array_push($sql['ARG'],$systemid);
 	$tab_options['ARG_SQL']=$sql['ARG'];
 	$tab_options['ARG_SQL_COUNT']=$systemid;

@@ -5,9 +5,9 @@
         <value>fr</value>
     </hook>
     <hook type="cdentry">
-        <identifier>cd_defaultapp</identifier>
+        <identifier>cd_defaultwindowsapp</identifier>
         <translation>37000</translation>
         <category>other</category>
-        <available>defaultapp</available>
+        <available>defaultwindowsapp</available>
     </hook>
 </hookstore>

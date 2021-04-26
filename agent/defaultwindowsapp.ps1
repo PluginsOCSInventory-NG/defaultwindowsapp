@@ -2,12 +2,12 @@ $regApplications = Get-ItemProperty -Path HKLM:\HKEY_LOCAL_MACHINE\SOFTWARE\Regi
 
 $regApplications.PSObject.Properties | ForEach-Object {
 	
-	$xml += "<DEFAULTAPP>`n"
+	$xml += "<DEFAULTWINDOWSAPP>`n"
 		
 		$xml += "<NAME>" + $_.Name + "</NAME>`n"
 		$xml += "<TYPE>" + $_.Value + "</TYPE>`n"
 	 
-	$xml += "</DEFAULTAPP>`n" 
+	$xml += "</DEFAULTWINDOWSAPP>`n" 
 }
 
 echo $xml
